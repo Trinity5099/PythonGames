@@ -22,7 +22,14 @@ for side in range(4):
     border_pen.lt(90)
 
 
-
+ #creating the player
+player= turtle.Turtle()
+player.color("blue")
+player.shape("triangle")
+player.penup()
+player.speed(0)
+player.lt(90)
+player.setposition(0, -250)
 
 
 
